@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Manter Cardapio</title>
+
+    <link href="docs/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <link href="css/signin.css" rel="stylesheet">
+
+    <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form class="form-signin" action="ManterCardapio.do" method="post">
+        <h2 class="form-signin-heading">Manter cardapio</h2>
+        <label class="sr-only" for="inputNome"></label>
+        <input type="text" name="nome" class="form-control" placeholder="Nome">
+        <input type="text" name="descr" class="form-control" placeholder="Descrição">
+        <input type="text" name="valor" class="form-control" placeholder="Valor">
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="acao" value="Incluir">Incluir</button>
+         <button class="btn btn-lg btn-primary btn-block" type="submit" name="acao" value="Listar Todos">Listar Todos</button>
+        </div>
+        
+      </form>
+
+    </div> 
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
